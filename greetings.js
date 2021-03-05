@@ -6,4 +6,8 @@ function sayGoodbye(name){
     console.log(`Bye ${name}`);
 }
 
-module.exports={sayHello, sayGoodbye}; 
+function sayWhatsUp(name){
+    console.log(`What is up ${name}`);
+}
+
+module.exports={sayHello, sayGoodbye, sayWhatsUp}; 
