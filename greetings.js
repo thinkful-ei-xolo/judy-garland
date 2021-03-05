@@ -1,5 +1,9 @@
 function sayHello(name){
-    console.log(name);
+    console.log(`Hi ${name}`);
 }
 
-module.exports=sayHello; 
+function sayGoodbye(name){
+    console.log(`Bye ${name}`);
+}
+
+module.exports={sayHello, sayGoodbye}; 
