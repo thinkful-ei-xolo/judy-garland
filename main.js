@@ -1,11 +1,12 @@
-let sayHi= require('./greetings');  //importing the sayHello function from our greetings.js file
+let {sayHello,sayGoodbye, sayWhatsUp}= require('./greetings');  //importing the sayHello function from our greetings.js file
 let {add, subtract} = require('./calculator');
-let sayGoodbye = require('./otherfolder/otherfile');
-sayHi("bob"); //executing the imported function
-
+//let sayGoodbye = require('./otherfolder/otherfile');
+sayHello("bob"); //executing the imported function
+sayWhatsUp("bob");
 
 add(6,4);
 subtract(10,2);
+sayGoodbye("bob");
 /*
 calc.add(6,4);
 calc.subtract(7,3);
